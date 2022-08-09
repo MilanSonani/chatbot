@@ -1,0 +1,189 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "hello",
+          "hi",
+          "hey",
+          "Hi",
+          "Hello",
+          "Anyone here?",
+          "Hello there"
+        ],
+        "responses": [
+          "Hello!",
+          "Hi!",
+          "Hey!",
+          "Hello! What can I do for you?",
+          "Thanks for interacting with us",
+          "Welcome to our site! You're most welcome",
+          "Hello! How can I help you today?"
+        ]
+      },
+      {
+        "tag": "morning",
+        "patterns": [
+          "good morning",
+          "Good morning",
+          "Good Morning"
+        ],
+        "responses": [
+          "Morning!",
+          "Very Good Morning!",
+          "Good Morning!"
+        ]
+      },
+      {
+        "tag": "afternoon",
+        "patterns": [
+          "Good Afternoon",
+          "good afternoon",
+          "Good noon"
+        ],
+        "responses": [
+          "Very Good Afternoon!",
+          "Good Afternoon!"
+        ]
+      },
+      {
+        "tag": "evening",
+        "patterns": [
+          "good evening",
+          "Good Evening"
+        ],
+        "responses": [
+          "Good Evening!Hope you had a great day",
+          "Good Evening!",
+          "Good Evening! Hope you're day is going well"
+        ]
+      },
+      {
+        "tag": "bot_status",
+        "patterns": [
+          "how are you doing?",
+          "How are you?",
+          "Hope you are fine and doing good"
+        ],
+        "responses": [
+          "I am fine.Thanks for Asking",
+          "I'm Good.Thanks for asking.How are you",
+          "I'm doing good How are you",
+          "All good here! What about you?"
+        ]
+      },
+      {
+        "tag": "creator",
+        "patterns": [
+          "Who 's this?",
+          "Who are you?",
+          "What is your name?"
+        ],
+        "responses": [
+          "I'm a Chatbot created by Team IPS. Nice to meet you"
+        ]
+      },
+      {
+        "tag": "not good",
+        "patterns": [
+          "I'm not feeling good",
+          "I'm not in a good mood today",
+          "I'm feeling so low",
+          "I'm feeling so demotivated"
+        ],
+        "responses": [
+          "This isn't an ending.you can beat this",
+          "I really want to know about this  please tell me",
+          "I know things are going to get better eventually but till then you need to stay calm and positive",
+          "Its completely fine to have a bad day. Don't worry about it"
+        ]
+      },
+      {
+        "tag": "scared",
+        "patterns": [
+          "I'm feeling so scared",
+          "I'm so scared"
+        ],
+        "responses": [
+          "Would it help if I can have a talk with you",
+          "Are you looking for advice or would you rather want me to listen to you?",
+          "Don't worry you're completely safe"
+        ]
+      },
+      {
+        "tag": "lonely",
+        "patterns": [
+          "I'm feeling so lonely",
+          "I really need someone to talk",
+          "I'm feeling isolated"
+        ],
+        "responses": [
+          "In in this stressful routine you are much likely to feel isolated or lonely",
+          "Don't worry I'll help out of this",
+          "Its a human nature to feel lonely. But you 'll be out of it soon",
+          "Don't worry I'm here to talk with you till you feel good about anything  under the and its completely fine if the next day sunrise comes up "
+        ]
+      },
+      {
+        "tag": "Angry for no reason",
+        "patterns": [
+          "I'm feeling angry but there's no reason",
+          "I'm getting angry but there's nothing to get angry"
+        ],
+        "responses": [
+          "This simply means you need a break",
+          "This clearly shows you're feeling stressed on",
+          "Please take a short break. You'll feel better"
+        ]
+      },
+      {
+        "tag": "Lethargic",
+        "patterns": [
+          "I'm feeling so demotivated and low",
+          "I'm feeling as I'm can't be good at anything also I'm not feeling active"
+        ],
+        "responses": [
+          "Its never to late for anything you have been through. Please tell me what makes you feel this",
+          "No one can be perfect at all things. Please tell me what is making you feel so depressed",
+          "Don't worry I'm at your corner feel free t  o convey yourself"
+        ]
+      },
+      {
+        "tag": [
+          "stressed"
+        ],
+        "patterns": [
+          "I am feeling so stressed out",
+          "I am feeling so exhausted today"
+        ],
+        "responses": [
+          "No judgment. Please say whatever comes to your mind",
+          "Thanks for trusting me with how are feeling. I'll be more than happy if you can share more about it with me",
+          "Please tell me if there's anyway I can make you feel peacefull.PLease be specific so that I can come through for you",
+          "Remember one thing you can always talk to me whenever something bothers you or make you stresses on. So go ahead and tell me"
+        ]
+      },
+      {
+        "tag": "insomia",
+        "patterns": [
+          "I'm not able to get complete sleep at night",
+          "Its  getting difficult for me to sleep at night"
+        ],
+        "responses": [
+          "We have a lot of tips and hacks for this! Don't worry just let me know more about this"
+        ]
+      },
+      {
+        "tag": "sick",
+        "patterns": [
+          "I got sick",
+          "I got sick because of",
+          "I'm not well",
+          "I'm not feeling well"
+        ],
+        "responses": [
+          "I hope you know how much we care for you, so stay calm everything is going to get be alright soon"
+        ]
+      }
+    ]
+  }
